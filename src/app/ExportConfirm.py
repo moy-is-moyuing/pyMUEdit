@@ -13,7 +13,7 @@ class ExportConfirm(QWidget):
     """
 
     # Signals to communicate back to the parent window
-    export_confirmed = pyqtSignal(str, str)  # Emits format and filename   
+    export_confirmed = pyqtSignal(str, str)  # Emits format and filename filename
     cancel_requested = pyqtSignal()
 
     def __init__(self, parent=None):
